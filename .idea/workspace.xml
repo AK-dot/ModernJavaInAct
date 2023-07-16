@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c45f26e-e415-4844-a9fb-05d5a2de2345" name="Changes" comment="chap08_CreatingCollections">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainact/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainact/chap06/PartitionPrimeNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainact/chap06/ToListCollector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainact/chap08/CreatingCollections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainact/chap08/WorkingWithCollections.java" afterDir="false" />
+    <list default="true" id="7c45f26e-e415-4844-a9fb-05d5a2de2345" name="Changes" comment="Add workingWithLists() to WorkingWithCollections">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +48,8 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="CreatingCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="modernjavainact.chap08.CreatingCollections" />
+    <configuration name="WorkingWithCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modernjavainact.chap08.WorkingWithCollections" />
       <module name="ModernJavaInAct" />
       <extension name="coverage">
         <pattern>
@@ -73,7 +63,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CreatingCollections" />
+        <item itemvalue="Application.WorkingWithCollections" />
       </list>
     </recent_temporary>
   </component>
@@ -86,10 +76,56 @@
       <option name="presentableId" value="Default" />
       <updated>1688829249999</updated>
     </task>
+    <task id="LOCAL-00001" summary="chap08_CreatingCollections">
+      <created>1689521427388</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689521427388</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add workingWithLists() to WorkingWithCollections">
+      <created>1689537421841</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689537421841</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add workingWithLists() to WorkingWithCollections">
+      <created>1689537472122</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689537472122</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chap08_CreatingCollections" />
-    <option name="LAST_COMMIT_MESSAGE" value="chap08_CreatingCollections" />
+    <MESSAGE value="Add workingWithLists() to WorkingWithCollections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add workingWithLists() to WorkingWithCollections" />
   </component>
 </project>
