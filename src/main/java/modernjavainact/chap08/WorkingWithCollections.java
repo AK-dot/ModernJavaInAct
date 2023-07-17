@@ -1,9 +1,6 @@
 package modernjavainact.chap08;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.ListIterator;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 import static java.util.Map.entry;
@@ -13,6 +10,27 @@ public class WorkingWithCollections {
     public static void main(String[] args) {
         workingWithLists();
         workingWithMaps();
+        computingOnMaps();
+    }
+
+    private static void computingOnMaps() {
+        Map<String, List<String>> friendsToMovies = new HashMap<>();
+
+        System.out.println("--> Adding a friend and movie in verbose way");
+        String friend = "Raphael";
+        List<String> movies = friendsToMovies.get(friend);
+        if (movies == null) {
+            movies = new ArrayList<>();
+            friendsToMovies.put(friend, movies);
+        }
+        movies.add("Star Wars");
+        System.out.println(friendsToMovies);
+
+        System.out.println("--> Adding a friend and movie using computeIfAbsent()");
+        friendsToMovies.clear();
+        friendsToMovies.computeIfAbsent("Raphael", name -> new ArrayList<>())
+                .add("Star Wars");
+        System.out.println(friendsToMovies);
     }
 
     private static void workingWithMaps() {
