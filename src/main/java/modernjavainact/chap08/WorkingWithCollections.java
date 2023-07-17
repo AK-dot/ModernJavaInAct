@@ -12,6 +12,17 @@ public class WorkingWithCollections {
         workingWithMaps();
         computingOnMaps();
         removingFromMaps();
+        replacingInMaps();
+    }
+
+    private static void replacingInMaps() {
+        Map<String, String> favouriteMovies = new HashMap<>();
+        favouriteMovies.put("Raphael", "Star Wars");
+        favouriteMovies.put("Olivia", "James Bond");
+
+        System.out.println("--> Replacing values in a map with replaceAll()");
+        favouriteMovies.replaceAll((friend, movie) -> movie.toUpperCase());
+        System.out.println(favouriteMovies);
     }
 
     private static void removingFromMaps() {
