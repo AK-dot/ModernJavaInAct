@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c45f26e-e415-4844-a9fb-05d5a2de2345" name="Changes" comment="Add workingWithLists() to WorkingWithCollections">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7c45f26e-e415-4844-a9fb-05d5a2de2345" name="Changes" comment="Add  method removingFromMaps() to class WorkingWithCollections">
       <change beforePath="$PROJECT_DIR$/src/main/java/modernjavainact/chap08/WorkingWithCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modernjavainact/chap08/WorkingWithCollections.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,6 +133,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chap08_CreatingCollections" />
     <MESSAGE value="Add workingWithLists() to WorkingWithCollections" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add workingWithLists() to WorkingWithCollections" />
+    <MESSAGE value="Add  method removingFromMaps() to class WorkingWithCollections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add  method removingFromMaps() to class WorkingWithCollections" />
   </component>
 </project>
