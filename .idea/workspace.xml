@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c45f26e-e415-4844-a9fb-05d5a2de2345" name="Changes" comment="Add  method removingFromMaps() to class WorkingWithCollections">
-      <change beforePath="$PROJECT_DIR$/src/main/java/modernjavainact/chap08/WorkingWithCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modernjavainact/chap08/WorkingWithCollections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modernjavainact/chap08/CacheExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
